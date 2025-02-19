@@ -1,0 +1,12 @@
+.square{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(47, 69, 83);
+    box-shadow: rgb(33, 55, 67) 0px 6px 0px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.square:hover{
+    background-color: rgb(90, 116, 132);
+    transform: translateY(-4%);
+}

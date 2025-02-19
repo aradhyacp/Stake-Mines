@@ -1,0 +1,100 @@
+.gamble-container {
+  height: 85vh;
+  width: 82vw;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+}
+.g-setting {
+  height: 100%;
+  background-color: #384f5f;
+  width: 25%;
+  padding: 25px;
+}
+.gamble {
+  background-color: #172833;
+  height: 100%;
+  width: 75%;
+}
+.amount-cal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+}
+.bet-amount {
+  background-color: #4e6372;
+  padding: 2px;
+  display: flex;
+  width: 100%;
+  border-radius: 3px;
+}
+.bet-amount input {
+  background-color: #172833;
+  padding: 7px;
+  width: 70%;
+  border-radius: 2px;
+}
+
+.mul-btn {
+  padding: 7px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.manual-g{
+    background-color: #4e6372;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: 5px solid#172833;
+}
+.dropdown{
+    width: 100%;
+    padding: 8px;
+    background-color: #172833;
+    border-radius: 3px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+.mine-select{
+    background-color: #4e6372;
+    padding: 2px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.mines-select-container{
+    margin-top: 20px;
+}
+.bet-btn{
+    background-color: rgb(0, 231, 1);
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 18px 28px;
+
+}
+.bet-btn:hover{
+    background-color: rgb(38, 244, 38);
+}
+.gamble{
+    padding: 0px;
+}
+.square-grid{
+    position: relative;
+    display: grid;
+    grid-gap: 1em 0.75em;
+    padding: 0.75em 0.75em 1em;
+    width: 100%;
+    max-width: 630px;
+    grid-template-columns: repeat(5, auto);
+    margin: auto;
+}
