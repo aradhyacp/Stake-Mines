@@ -10,3 +10,8 @@
     background-color: rgb(90, 116, 132);
     transform: translateY(-4%);
 }
+.square img{
+    height: 120px;
+    margin: auto;
+    width: 100px;
+}

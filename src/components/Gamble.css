@@ -1,5 +1,5 @@
 .gamble-container {
-  height: 85vh;
+  height: 87vh;
   width: 82vw;
   margin: 25px auto;
   display: flex;
@@ -84,6 +84,7 @@
 }
 .bet-btn:hover{
     background-color: rgb(38, 244, 38);
+    color: white;
 }
 .gamble{
     padding: 0px;
@@ -91,7 +92,7 @@
 .square-grid{
     position: relative;
     display: grid;
-    grid-gap: 1em 0.75em;
+    grid-gap: 0.8em 0.75em;
     padding: 0.75em 0.75em 1em;
     width: 100%;
     max-width: 630px;
