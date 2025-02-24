@@ -5,7 +5,7 @@ import minesound from '/bombSound.mp3'
 import GemImage from '/gem.png'
 import MineImage from '/mine.png'
 
-const Square = ({Mineprop}) => {
+const Square = ({Mineprop,onClick, BetPlaced}) => {
     const [Image,setImage] = useState(null);
     const HandleClick = () =>{
         if(Mineprop){
@@ -17,11 +17,14 @@ const Square = ({Mineprop}) => {
             sound.play();
             setImage(GemImage);
         }
+        if(onClick){
+            onClick();
+        }
     }
   return (
-    <div className='square' onClick={HandleClick}>
+    <button className='square' onClick={HandleClick} disabled={!BetPlaced}>
         {Image && <img src={Image}/>}
-    </div>
+    </button>
   )
 }
 
